@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.filter {
+    margin-top: 100px;
+}
+.tableau-style  {
+  border-collapse: collapse;
+  min-width: 400px;
+  width: auto;
+  box-shadow: 0 5px rgba(0,0,0,0);
+  cursor: pointer;
+  margin: 100px auto;
+  border: 2px solid midnightblue;
+}
+
+.tableau-style {
+  padding: 15px 20px;
+}
+
+.tableau-style tbody td, tr, th {
+  width: 20px;
+  height: 21px;
+  border: 2px solid black;
+}
+
+.statusBorder {
+  border: 2px solid black;
+}
+
+.tableauStatusHeader {
+  width: 100%;
+  border: none;
+}
+.tableauStatusHeader tbody td, tr, th {
+  width: 20px;
+  height: 21px;
+  border: none;
+}
+
+
+.tableauStatusBody {
+  padding: 10px;
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid silver;
+}
+
+.tableauStatusBody tbody td {
+  width: 20px;
+  height: 21px;
+  border: 2px solid silver;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
